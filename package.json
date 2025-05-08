@@ -4,16 +4,15 @@
   "version": "0.1.0",
   "packageManager": "pnpm@10.6.2",
   "description": "_description_",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com>",
+  "author": "Kutius <precious.wei@qq.com>",
   "license": "MIT",
-  "funding": "https://github.com/sponsors/kutius",
   "homepage": "https://github.com/kutius/streaming-text-animator#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kutius/streaming-text-animator.git"
   },
   "bugs": "https://github.com/kutius/streaming-text-animator/issues",
-  "keywords": [],
+  "keywords": ["streaming", "text", "animation", "typewriter", "typescript", "chatgpt-effect"],
   "sideEffects": false,
   "exports": {
     ".": "./dist/index.mjs",

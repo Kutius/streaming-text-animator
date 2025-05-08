@@ -54,6 +54,10 @@
     "vitest-package-exports": "catalog:testing",
     "yaml": "catalog:testing"
   },
+  "resolutions": {
+    "unplugin": "catalog:playground",
+    "vite": "catalog:cli"
+  },
   "simple-git-hooks": {
     "pre-commit": "pnpm i --frozen-lockfile --ignore-scripts --offline && npx lint-staged"
   },

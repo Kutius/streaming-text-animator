@@ -1,0 +1,38 @@
+{
+  "type": "module",
+  "private": true,
+  "packageManager": "pnpm@10.10.0",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite --port 3333 --open",
+    "lint": "eslint .",
+    "typecheck": "vue-tsc",
+    "preview": "vite preview",
+    "test": "vitest",
+    "up": "taze major -I"
+  },
+  "dependencies": {
+    "@vueuse/core": "catalog:playground",
+    "vue": "catalog:playground",
+    "vue-router": "catalog:playground"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "catalog:cli",
+    "@iconify-json/carbon": "catalog:playground",
+    "@types/node": "catalog:types",
+    "@unocss/eslint-plugin": "catalog:playground",
+    "@vitejs/plugin-vue": "catalog:playground",
+    "@vue-macros/volar": "catalog:playground",
+    "eslint": "catalog:cli",
+    "eslint-plugin-format": "catalog:playground",
+    "taze": "catalog:playground",
+    "typescript": "catalog:cli",
+    "unocss": "catalog:playground",
+    "unplugin-auto-import": "catalog:playground",
+    "unplugin-vue-components": "catalog:playground",
+    "unplugin-vue-macros": "catalog:playground",
+    "unplugin-vue-router": "catalog:playground",
+    "vite": "catalog:cli",
+    "vue-tsc": "catalog:playground"
+  }
+}

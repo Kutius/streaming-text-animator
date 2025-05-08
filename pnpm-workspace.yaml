@@ -5,20 +5,37 @@ packages:
   - examples/*
 catalogs:
   cli:
-    '@antfu/eslint-config': ^4.10.1
+    '@antfu/eslint-config': ^4.12.0
     '@antfu/ni': ^24.1.0
     bumpp: ^10.1.0
-    eslint: ^9.22.0
-    lint-staged: ^15.5.0
-    simple-git-hooks: ^2.11.1
+    eslint: ^9.26.0
+    lint-staged: ^15.5.1
+    simple-git-hooks: ^2.13.0
     tsx: ^4.19.3
-    typescript: ^5.8.2
+    typescript: ^5.8.3
     unbuild: ^3.5.0
-    vite: ^6.2.1
+    vite: ^6.3.5
   inlined:
     '@antfu/utils': ^9.1.0
+  playground:
+    '@iconify-json/carbon': ^1.2.8
+    '@unocss/eslint-plugin': ^66.1.0
+    '@vitejs/plugin-vue': ^5.2.3
+    '@vue-macros/volar': ^3.0.0-beta.10
+    '@vueuse/core': ^13.1.0
+    eslint-plugin-format: ^1.0.1
+    taze: ^19.0.4
+    unocss: ^66.1.0
+    unplugin: ^2.3.2
+    unplugin-auto-import: ^19.1.2
+    unplugin-vue-components: ^28.5.0
+    unplugin-vue-macros: ^2.14.5
+    unplugin-vue-router: ^0.12.0
+    vue: ^3.5.13
+    vue-router: ^4.5.1
+    vue-tsc: ^2.2.10
   testing:
-    vitest: ^3.0.8
+    vitest: ^3.1.3
     vitest-package-exports: ^0.1.1
     yaml: ^2.7.0
   types:
@@ -28,3 +45,4 @@ catalogs:
 onlyBuiltDependencies:
   - esbuild
   - simple-git-hooks
+  - unrs-resolver
